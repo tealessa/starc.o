@@ -15,22 +15,23 @@
     padding-top:30px;
     padding-bottom: 30px;
 }
-.header__nav__menu{
+.nav__menu{
     text-decoration: none;
     color: black;
     margin-right:30px;
 }
-.header__btn{
-    text-decoration: none;
-    color: #000;
+.header__bttn{
     padding:12px 24px ;
     background:#FF6C2F;
+    text-decoration: none;
+    color: #000;
+   
 }
-.header__btn:hover{
+.header__btt:hover{
     transform: scale(1.1);
 }
 .hero{
-    background: url('../img/herobg.png') no-repeat bottom / cover;
+    background: url('../img/promo.png') no-repeat bottom / cover;
     padding-top: 96px;
     padding-bottom: 620px;
 }
@@ -46,7 +47,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.partners__block2{
+.block2{
     margin-bottom: 80px;
 }
 .partners__container{
@@ -72,12 +73,12 @@
 .partner__list{
     display: flex;
 }
-.partner__listItem{
+.partner__list{
     font-size: 24px;
     line-height: 30px;
     margin-right: 50px;
 }
-.partner__listItem:last-child{
+.partner__list:last-child{
     margin-right: 0;
 }
 .slider{
@@ -93,6 +94,9 @@
     margin-bottom: 120px;
     max-width: 1035px;
     width: 100%;
+}
+.toool{
+    color:#FF6C2F;
 }
 .orange{
     color: #FF6C2F;
